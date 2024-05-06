@@ -1,0 +1,47 @@
+.bdy{
+    font-size: 16px;
+    margin: 10px auto 0px auto;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: 700;
+}
+.left-column{
+    height: 195px;
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-w{
+    border-radius: 10px;
+    padding: 20px 12px;
+    width: 100%;
+    background-color: #292929;
+}
+.center{
+    height: 320px;
+    width: 235px;
+    border-radius: 10px;
+}
+#cter{
+    background: url(../midias/imgs/P83/center.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.right{
+    height: 320px;
+    width: 256px;
+    border-radius: 10px;
+}
+#rght{
+    background: url(../midias/imgs/P83/right.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

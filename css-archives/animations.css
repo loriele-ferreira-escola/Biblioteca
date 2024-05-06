@@ -1,0 +1,41 @@
+a:hover{
+    color: #c5c5c5;
+}
+/*Hovers no Arquivo index.html*/
+.button-s:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.288);
+}
+.cubo:hover{
+    filter: saturate(1%);
+    border: 3px solid hsl(0, 0%, 10%);
+}
+/*Hovers no Arquivo P92.html*/
+.button-q:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.288);
+}
+/*Hovers no Arquivo P83.html*/
+.button-w:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.288);
+}
+/*Hovers no Arquivo P74.html*/
+.button-v:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.288);
+}
+/*Hovers no Arquivo P65.html*/
+.button-y:hover{
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.288);
+}
+
+
+
+/*O ideal seria usar um "id" para fazer o uso do :hover, ai poderia colcar só pra ele procurar assim evitando de toda vez que for fazer um botão, de ter que vir aqui escrever a variação e copiar e colar, afinal é pra isso q temos class e id né!(mas já fiz um, agora vai ficar assim :)*/

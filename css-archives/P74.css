@@ -1,0 +1,58 @@
+.bdy{
+    font-size: 16px;
+    margin: 10px auto 0px auto;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 700;
+}
+.left-column{
+    height: 340px;
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.button-v{
+    border-radius: 10px;
+    padding: 20px 12px;
+    width: 100%;
+    background-color: #292929;
+}
+.left-img{
+    height: 200px;
+    width: 246px;
+    border-radius: 10px;
+}
+#lft-img{
+    background: url(../midias/imgs/P74/nas-left.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.center{
+    height: auto;
+    width: 246px;
+    border-radius: 10px;
+}
+#cter{
+    background: url(../midias/imgs/P74/gho-center.jpg);
+    background-repeat: no-repeat;
+    background-position: -105px center;
+    background-size: cover;
+}
+.right-column{
+    height: 340px;
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bv{
+    padding: 40px;
+}

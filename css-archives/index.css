@@ -1,0 +1,63 @@
+.bdy{
+    font-size: 16px;
+    margin: 10px auto 0px auto;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column{
+    text-align: left;
+    font-weight: 700;
+    height: 260px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-s{
+    border-radius: 10px;
+    padding: 20px 12px;
+    width: 100%;
+    background-color: #292929;
+}
+
+.column-center{
+    height: 530px;
+    display: flex;
+}
+.column-right{
+    height: auto;
+}
+.cubo{
+    height: 260px;
+    width: 260px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+#cbo1{
+    background: url(../midias/imgs/index/top-left.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+#cbo2{
+    background: url(../midias/imgs/index/top-right.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+#cbo3{
+    background: url(../midias/imgs/index/buttom-left.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+#cbo4{
+    background: url(../midias/imgs/index/buttom-right.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
